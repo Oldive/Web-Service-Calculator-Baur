@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demoCalculator-Baur:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demoCalculator-Baur</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demoCalculator-Baur-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demoCalculator-Baur:war exploded" />
+    </root>
+  </artifact>
+</component>
